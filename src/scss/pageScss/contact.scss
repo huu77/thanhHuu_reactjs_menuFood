@@ -1,0 +1,54 @@
+.sendInformation { grid-area: header; }
+.form_contact{ grid-area: menu; }
+.bang{grid-area: bang;}
+.map { grid-area: main; }
+
+.contact_dad{
+display: flex;
+justify-content: center;
+align-items: center;
+    .contact{
+        width: 60%;
+        display: grid;
+        grid-template-areas:
+        'header header header header header header'
+        'menu menu menu bang bang bang  '
+        'map map map map map map';
+        column-gap: 30px;
+        .sendInformation{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+           
+        }
+        .form_contact{
+            display: grid;
+
+            grid-template-areas:'mot mot mot hai hai hai'
+            'ba ba ba bon bon bon'
+            'nam nam nam nam nam nam ';
+            row-gap: 10px;
+            column-gap: 10px;
+            .name{
+                grid-area: mot;
+            }
+            .email{
+                grid-area: hai;
+            
+            }
+            .sdt{
+                grid-area: ba;
+            }
+            .tieude{
+                grid-area: bon;
+            }
+            .noidung{
+                grid-area: nam;
+            }
+        }
+        .map{
+    
+        }
+    }
+}
