@@ -15,7 +15,7 @@ export default function InputIntegration() {
     const cx = classNames.bind(styles);
   return (
     <div className={cx('login_form')}>
-        <Box sx={{ display: "flex", flexDirection: "column" ,width:"300px",marginTop:"50px"}} >
+        <Box sx={{ display: "flex", flexDirection: "column" ,width:"300px",marginTop:"50px",color:"white"}} >
         <Input
           size="lg"
           startDecorator={<AccountCircleIcon />}
@@ -24,7 +24,7 @@ export default function InputIntegration() {
          
         />
       </Box>
-      <Box sx={{ display: "flex", flexDirection: "column",width:"300px",marginTop:"50px"}}>
+      <Box sx={{ display: "flex", flexDirection: "column",width:"300px",marginTop:"50px",color:"white"}}>
         <Input
           size="lg"
           startDecorator={<KeyRoundedIcon />}
