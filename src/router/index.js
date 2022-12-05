@@ -7,6 +7,7 @@ import Contact from "../compoment/page/contact";
 import Info from "../compoment/page/info";
 import MenuChild from "../compoment/page/menuChild";
 import ERR from "../compoment/page/404";
+import newCard from "../compoment/page/newCard";
 
 const PulichRouter=[
 {path:'/',component:Login,layout:null},
@@ -14,6 +15,7 @@ const PulichRouter=[
 {path:'/menu',component:Menu},
 {path:'/menu/:slug',component:MenuChild},
 {path:'/about',component:About},
+{path:'/about/newCard',component:newCard},
 {path:'/contact',component:Contact},
 {path:'/info',component:Info},
 {path:'*',component:ERR},

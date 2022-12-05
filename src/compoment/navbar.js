@@ -42,7 +42,8 @@ return <div className={cx('navbar')}>
               <Link to="/about" className={cx('link_to')}>About</Link>
               <Link to="/contact" className={cx('link_to')}>Contact</Link>
              </div>
-            
+
+           
              
 
               <div className={cx('avatar')}>
@@ -96,6 +97,7 @@ return <div className={cx('navbar')}>
                   ))}
                 </Menu>
               </div>
+             
     </div>
 }
 export default Navbar;

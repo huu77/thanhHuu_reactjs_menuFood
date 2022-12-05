@@ -26,6 +26,7 @@ const handleClick=()=>{
 }
   return (
     <div>
+     
       {data.map((item) => {
         return (
           <div key={item.id} style={{ display: "flex" }}>
